@@ -1,4 +1,4 @@
-# Tổng quan về Numpy
+# ***Tổng quan về Numpy***
 ---
 * Numpy là một thư viện chuyên về xử lý và tính toán trên vector và ma trận
 * Numpy thường được sử dụng cùng với scipy và matplotlib để thay thế cho matlab
