@@ -23,6 +23,7 @@ print(matrix[:1, :2]) -> In ra một ma trận hàng 0, cột(0,1)
     [4 5]
     [[1,2]]
 ```
+---
 ## 2. Slicing 
 ```python
 import numpy as np 
