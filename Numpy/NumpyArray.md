@@ -49,7 +49,36 @@ print(cube.shape)
 ```
 > Số mở ngoặc vuông khi tạo ra 1 array tương ứng với số chiều của array đó
 
-     
+--- 
+## 2. Zeros(), Ones(), Full()
+* Dùng để tạo mảng các giá trị bằng nhau 
+* Đầu vào là shape của array dưới dạng tuple
+
+Zeros(): Tạo ra các mạng giá trị đều bằng 0 
+```python
+import numpy as np
+vector = np.zeros((3,))
+print(vector)
+
+-> [0.0.0.]
+```
+Ones(): Tạo ra các mảng co giá trị bằng 1
+```python
+import numpy as np
+vector = np.ones((3,))
+print(vector)
+
+-> [1.1.1.]
+```
+Full(): Tạo ra các mảng giá trị bằng nhau và bằng 1 giá trị cụ thể cho trước vào đó
+```python
+import numpy as np
+vector = np.full((3,),10)
+print(vector) 
+
+-> [10 10 10]
+```
+
 
 
 
