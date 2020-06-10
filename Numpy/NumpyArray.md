@@ -11,7 +11,7 @@ print(vector.shape)
 
 -> [1 2 3]
    <class 'numpy.ndarray'>
-   (3,) mảng 1 chiều có 3 phần tử 
+   (3,) Mảng 1 chiều có 3 phần tử 
 ```
 
 Numpy có thể tạo ra 1 ma trận:
@@ -26,7 +26,7 @@ print(matrix.shape)
 
 -> [[1 2,3]
     [8 3 1]]
-   (2,3) mảng 2 chiều gồm 2 hàng 3 cột
+   (2,3) Mảng 2 chiều gồm 2 hàng 3 cột
 ```
 Numpy có thể tạo ra một hình khối 
 ```python
@@ -47,8 +47,8 @@ print(cube.shape)
      [6 7]]]
     (2,3,2) Mảng 3 chiều: 2 hàng, 3 cột, 2 phần tử 1 cột 
 ```
+> Số mở ngoặc vuông khi tạo ra 1 array tương ứng với số chiều của array đó
 
-    
      
 
 
