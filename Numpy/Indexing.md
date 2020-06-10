@@ -1,1 +1,3 @@
+# Indexing trong numpy 
+---
 
