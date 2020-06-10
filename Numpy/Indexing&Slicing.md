@@ -33,6 +33,7 @@ print(matrix[0:1])
 print(matrix[0:1].shape)
 print(matrix[0:1][-1])
 print(matrix[0:1][-1].shape)
+print(matrix[0:1][-1][1:])
 
 -> [[0.1 0.2 0.3]
     [0.4 0.5 0.6]]
@@ -41,6 +42,7 @@ print(matrix[0:1][-1].shape)
    (1,3)
    [0.1 0.2 0.3]
    (3,)
+   [0.2 0.3]
  ```
  
     
