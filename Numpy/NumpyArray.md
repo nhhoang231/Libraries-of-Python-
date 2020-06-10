@@ -9,7 +9,7 @@ print(vector)
 print(type(vector))
 print(vector.shape)
 
--> [1,2,3]
+-> [1 2 3]
    <class 'numpy.ndarray'>
    (3,) mảng 1 chiều có 3 phần tử 
 ```
@@ -24,10 +24,32 @@ np_matrix = np.array([
 print(matrix)
 print(matrix.shape)
 
--> [[1,2,3]
-    [8,3,1]]
+-> [[1 2,3]
+    [8 3 1]]
    (2,3) mảng 2 chiều gồm 2 hàng 3 cột
 ```
+Numpy có thể tạo ra một hình khối 
+```python
+import numpy as np
+cube = np.array([
+                     [[1,2],[2,3],[3,4]],
+                     [[4,5],[5,6],[6,7]]
+])
+print(cube)
+print(cube.shape)
+
+-> [[[1 2]
+     [2 3]
+     [3 4]]
+     
+    [[4,5]
+     [5 6]
+     [6 7]]]
+    (2,3,2) Mảng 3 chiều: 2 hàng, 3 cột, 2 phần tử 1 cột 
+```
+
+    
+     
 
 
 
