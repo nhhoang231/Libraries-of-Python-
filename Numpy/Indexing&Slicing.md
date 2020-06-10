@@ -1,4 +1,4 @@
-# Indexing trong numpy 
+# Indexing và Slicing trong numpy 
 ---
 ## 1. Indexing giống như cách thao tác với list trong python 
 ```python
@@ -23,5 +23,23 @@ print(matrix[:1, :2]) -> In ra một ma trận hàng 0, cột(0,1)
     [4 5]
     [[1,2]]
 ```
+## 2. Slicing 
+```python
+import numpy as np 
+matrix = np.random.random((2,3))
+print(matrix)
+print(matrix[0:1])
+print(matrix[0:1].shape)
+print(matrix[0:1][-1])
+print(matrix[0:1][-1].shape)
 
+-> [[0.1 0.2 0.3]
+    [0.4 0.5 0.6]]
+    
+   [[0.1 0.2 0.3]]
+   (1,3)
+   [0.1 0.2 0.3]
+   (3,)
+ ```
+ 
     
