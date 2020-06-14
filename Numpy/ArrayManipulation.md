@@ -13,8 +13,8 @@ print(matrix.shape)
 matrix1 = matrix.reshape(4,2) --thay đổi dạng ma trận thành 4 hàng 2 cột
 print(matrix1)
 
-matrix2 = matrix.reshape(2,2,2) --thay đổi dạng ma trận thành 1 ma trận có 2 hàng 2 cột 2 phần tử 1 đơn vị
-print(matrix2)
+cube = matrix.reshape(2,2,2) --thay đổi dạng ma trận thành 1 hình khối có 2 hàng 2 cột 2 phần tử 1 đơn vị
+print(cube)
 
 -> [[1 2 3 4]
     [5 6 7 8]]
