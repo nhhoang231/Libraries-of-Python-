@@ -6,5 +6,7 @@
 #### [1.3. Indexing&Slicing](https://github.com/nhhoang231/Libraries-of-Python-/blob/master/Numpy/Indexing%26Slicing.md)
 #### [1.4. Broadcasting](https://github.com/nhhoang231/Libraries-of-Python-/blob/master/Numpy/Broadcasting.md)
 #### [1.5. Iterating](https://github.com/nhhoang231/Libraries-of-Python-/blob/master/Numpy/Iterating.md)
+#### [1.6. Array Manipulation](https://github.com/nhhoang231/Libraries-of-Python-/blob/master/Numpy/ArrayManipulation.md)
+
 
 
