@@ -7,6 +7,8 @@
 #### [1.4. Broadcasting](https://github.com/nhhoang231/Libraries-of-Python-/blob/master/Numpy/Broadcasting.md)
 #### [1.5. Iterating](https://github.com/nhhoang231/Libraries-of-Python-/blob/master/Numpy/Iterating.md)
 #### [1.6. Array Manipulation](https://github.com/nhhoang231/Libraries-of-Python-/blob/master/Numpy/ArrayManipulation.md)
+#### [1.7. Linear Algebra](https://github.com/nhhoang231/Libraries-of-Python-/blob/master/Numpy/LinearAlgebra.md)
+
 
 
 
