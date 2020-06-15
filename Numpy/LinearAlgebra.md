@@ -64,4 +64,4 @@ print(linalg.norm(a,ord=1)
 -> 10.0
 ```
 
--
+
