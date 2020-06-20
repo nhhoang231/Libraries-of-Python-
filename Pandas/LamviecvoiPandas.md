@@ -45,4 +45,24 @@ print(data)
    CNTT     390
    dtype: int64
 ```
+## 3. DataFrame
+* Pandas giúp chuyển các dạng dữ liệu thành dạng dữ liệu cấu trúc dataframe. 
+```python
+import pandas as pd
+import numpy as np
 
+dic = [
+       'a':[11,21,31,15,4]
+       'b':[12.5,22.9,32.3,71.7,3.4]
+       'c':['v1','v2','v3','v4','v5']
+]
+data = pd.dataFrame(dic)
+print(data)
+
+->    a      b  c
+   0  11  12.5 v1
+   1  21  22.9 v2
+   2  31  32.3 v3
+   3  15  71.7 v4
+   4  4    3.4 v5
+```
