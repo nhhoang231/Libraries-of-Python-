@@ -12,8 +12,37 @@
 * Lọc và thực hiện query trên dữ liệu 
 ---
 ## 2. Series on Pandas
+* Pandas giúp tạo ra một series các giá trị
+VD1:
 ```python
 import numpy as np
 import pandas as pd
 
-data = pd.Series
+data = pd.Series(np.random.randint(100,size=4))
+print(data)
+
+-> 0 91
+   1 97
+   2 47
+   3 30
+   dtype: int64
+```
+
+VD2:
+```python
+import numpy as np
+import pandas as pd
+
+chiso = ["Kientruc","Xaydung","Dulich","CNTT"]
+giatri = [317, 369, 350, 390]
+
+data = pd.Series(giatri, chiso)
+print(data)
+
+-> Kientruc 317
+   Xaydung  369
+   Dulich   350
+   CNTT     390
+   dtype: int64
+```
+
