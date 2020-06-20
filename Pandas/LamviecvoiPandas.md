@@ -12,7 +12,7 @@
 * Lọc và thực hiện query trên dữ liệu 
 ---
 ## 2. Series on Pandas
-* Pandas giúp tạo ra một series các giá trị
+* Pandas giúp tạo ra một series các giá trị.
 VD1:
 ```python
 import numpy as np
