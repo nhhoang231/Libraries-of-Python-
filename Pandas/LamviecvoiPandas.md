@@ -45,6 +45,7 @@ print(data)
    CNTT     390
    dtype: int64
 ```
+---
 ## 3. DataFrame
 * Pandas giúp chuyển các dạng dữ liệu thành dạng dữ liệu cấu trúc dataframe. 
 ```python
@@ -58,6 +59,9 @@ dic = [
 ]
 data = pd.dataFrame(dic)
 print(data)
+print(data.head(2)) -> lấy 2 dòng đầu
+print(data.tail(3)) -> lấy 3 dòng cuối
+print(data.shape)
 
 ->    a      b  c
    0  11  12.5 v1
