@@ -10,6 +10,13 @@
 #### [1.7. Linear Algebra](https://github.com/nhhoang231/Libraries-of-Python-/blob/master/Numpy/LinearAlgebra.md)
 ---
 ### **2. Pandas**
+#### [2.1. Làm việc với Pandas](https://github.com/nhhoang231/Libraries-of-Python-/blob/master/Pandas/LamviecvoiPandas.md)
+#### [2.2. Làm việc với file Excel](https://github.com/nhhoang231/Libraries-of-Python-/blob/master/Pandas/LamviecvoiExcel.md)
+#### [2.3. Làm việc với file CSV](https://github.com/nhhoang231/Libraries-of-Python-/blob/master/Pandas/LamviecvoifileCSV.md)
+#### [2.4. Intro API với Pandas] -- Cập nhật sau
+----
+### **3. Matplotlib**
+
 
 
 
