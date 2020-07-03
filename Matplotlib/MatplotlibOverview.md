@@ -17,6 +17,10 @@ print(plt.style.available)
 mpl.style.use(['ggplot'])
 ```
 ---
-## 2. 
+## 2. Line Plot (Biêu đồ đường)
+* Biểu đồ đường (Line Plot) là một loại biểu đồ hiển thị thông tin dưới dạng một loạt các điểm dữ liệu được gọi là "marker" được kết nối bởi các đoạn thẳng 
+* Nó là một loại biểu đồ cơ bản phổ biến trong nhiều lĩnh vực. Sử dụng biểu đồ đường khi bạn có một bộ dữ liệu liên tục.
+* Biêu đồ phù hợp nhất cho việc trực quan hóa dữ liệu dựa trên xu hướng trong một khoảng thời gian.
 
+ 
 
